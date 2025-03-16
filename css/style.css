@@ -11,12 +11,19 @@ main {
   height: 300px;
   object-fit: contain;
 }
+.alturadeimg{
+    height: 200px;
+}
 @media all and (min-width: 993px) {
     .fuente {
         font-size: 100px;
     }
     .texto{
         font-size: 30px;
+    }
+    .alturadeimg{
+        height: 350px;
+        object-fit: cover;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -25,5 +32,8 @@ main {
     }
     .texto{
         font-size: 18px;
+    }
+    .alturadeimg{
+        height: 300px;
     }
 }
