@@ -14,6 +14,13 @@ main {
 .alturadeimg{
     height: 200px;
 }
+.Veneno{
+    background-color: blueviolet;
+}
+.radiotipo{
+    border-radius: 100px;
+}
+
 @media all and (min-width: 993px) {
     .fuente {
         font-size: 100px;
