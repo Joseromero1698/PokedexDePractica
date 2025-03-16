@@ -78,53 +78,250 @@
         </div>
       </nav>
     </header>
-    <main >
+    <main>
       <section>
-      <div id="carouselpokemon" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselpokemon" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselpokemon" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselpokemon" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="https://hips.hearstapps.com/hmg-prod/images/pokemon-1671869502.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*" class="d-block w-100 alturadeimg" alt="ash y pikachu">
+        <div id="carouselpokemon" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselpokemon"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselpokemon"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselpokemon"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
           </div>
-          <div class="carousel-item">
-            <img src="https://i.blogs.es/e6db1f/pokemon/1366_2000.webp" class="d-block w-100 alturadeimg" alt="Ash y sus pokemon">
-          </div>
-          <div class="carousel-item">
-            <img src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2016/02/18/CA9790D8-4343-4CCF-8C78-C04E595A0FEB/98.jpg?crop=636,358,x0,y0&width=1900&height=1069&optimize=high&format=webply" class="d-block w-100 alturadeimg" alt="pokemon de primera generacion">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselpokemon" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselpokemon" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <article class="container">
-        <div class="row">
-          <h1 class="my-3 text-danger"> Rolling code / Pokedex</h1>
-          <div class="card" style="width: 18rem;">
-            <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="text-secondary">N°001</p>
-              <br>
-              <h5 class="card-title">Bulbasour</h5>
-              <ul class="d-inline-flex list-unstyled">
-                <li class="p-2 bg-success radiotipo me-2">Planta</li>
-                <li class="p-2 Veneno radiotipo">veneno</li>
-              </ul>
-              <a href="#" class="btn btn-primary w-100">Ver detalles</a>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://hips.hearstapps.com/hmg-prod/images/pokemon-1671869502.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*"
+                class="d-block w-100 alturadeimg"
+                alt="ash y pikachu"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://i.blogs.es/e6db1f/pokemon/1366_2000.webp"
+                class="d-block w-100 alturadeimg"
+                alt="Ash y sus pokemon"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://fotografias-neox.atresmedia.com/clipping/cmsimages01/2016/02/18/CA9790D8-4343-4CCF-8C78-C04E595A0FEB/98.jpg?crop=636,358,x0,y0&width=1900&height=1069&optimize=high&format=webply"
+                class="d-block w-100 alturadeimg"
+                alt="pokemon de primera generacion"
+              />
             </div>
           </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselpokemon"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselpokemon"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-      </article>
-    </section>
+      </section>
+      <section class="container">
+        <h1 class="my-3 text-danger">Rolling code / Pokedex</h1>
+        <article class="row d-flex">
+          <div class="col-md-4 col-lg-3 mb-2">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+                class="card-img-top"
+                alt="Bulbasaur"
+              />
+              <div class="card-body">
+                <p class="text-secondary">N°001</p>
+                <br />
+                <h5 class="card-title">Bulbasaur</h5>
+                <ul class="d-inline-flex list-unstyled">
+                  <li class="p-2 bg-success radiotipo me-2">Planta</li>
+                  <li class="p-2 Veneno radiotipo">veneno</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-2">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="text-secondary">N°001</p>
+                <br />
+                <h5 class="card-title">Bulbasour</h5>
+                <ul class="d-inline-flex list-unstyled">
+                  <li class="p-2 bg-success radiotipo me-2">Planta</li>
+                  <li class="p-2 Veneno radiotipo">veneno</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-2">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="text-secondary">N°001</p>
+                <br />
+                <h5 class="card-title">Bulbasour</h5>
+                <ul class="d-inline-flex list-unstyled">
+                  <li class="p-2 bg-success radiotipo me-2">Planta</li>
+                  <li class="p-2 Veneno radiotipo">veneno</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-2">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="text-secondary">N°001</p>
+                <br />
+                <h5 class="card-title">Bulbasour</h5>
+                <ul class="d-inline-flex list-unstyled">
+                  <li class="p-2 bg-success radiotipo me-2">Planta</li>
+                  <li class="p-2 Veneno radiotipo">veneno</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-2">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="text-secondary">N°001</p>
+                <br />
+                <h5 class="card-title">Bulbasour</h5>
+                <ul class="d-inline-flex list-unstyled">
+                  <li class="p-2 bg-success radiotipo me-2">Planta</li>
+                  <li class="p-2 Veneno radiotipo">veneno</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-2">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="text-secondary">N°001</p>
+                <br />
+                <h5 class="card-title">Bulbasour</h5>
+                <ul class="d-inline-flex list-unstyled">
+                  <li class="p-2 bg-success radiotipo me-2">Planta</li>
+                  <li class="p-2 Veneno radiotipo">veneno</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-2">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="text-secondary">N°001</p>
+                <br />
+                <h5 class="card-title">Bulbasour</h5>
+                <ul class="d-inline-flex list-unstyled">
+                  <li class="p-2 bg-success radiotipo me-2">Planta</li>
+                  <li class="p-2 Veneno radiotipo">veneno</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-2">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="text-secondary">N°001</p>
+                <br />
+                <h5 class="card-title">Bulbasour</h5>
+                <ul class="d-inline-flex list-unstyled">
+                  <li class="p-2 bg-success radiotipo me-2">Planta</li>
+                  <li class="p-2 Veneno radiotipo">veneno</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 mb-2">
+            <div class="card" style="width: 100%;">
+              <img
+                src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <p class="text-secondary">N°001</p>
+                <br />
+                <h5 class="card-title">Bulbasour</h5>
+                <ul class="d-inline-flex list-unstyled">
+                  <li class="p-2 bg-success radiotipo me-2">Planta</li>
+                  <li class="p-2 Veneno radiotipo">veneno</li>
+                </ul>
+                <a href="#" class="btn btn-primary w-100">Ver detalles</a>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
     </main>
     <footer>
       <p class="text-center bg-danger p-3 m-0 fs-5">
