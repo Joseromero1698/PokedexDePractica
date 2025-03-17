@@ -34,11 +34,19 @@ ul{
 }
 .estadisticas{
     border-radius: 40px;
-    margin-right: 20px;
+    margin: 20px;
 }
 .blastoise{
     width: 300px;
     height: 300px;
+}
+.fondoevolucion{
+    background-color: #FFFFFF;
+background-image: linear-gradient(180deg, #FFFFFF 0%, #373a41 50%, #897070 100%);
+}
+.evoluciones{ 
+    width: 200px;
+    height: 200px;
 }
 @media all and (min-width: 993px) {
     .fuente {
@@ -63,6 +71,10 @@ ul{
         width: 100%;
         height: 450px;
     }
+    .evoluciones{ 
+        width: 300px;
+        height: 300px;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .fuente {
@@ -77,5 +89,9 @@ ul{
     .blastoise{
         width: 450;
         height: 450px;
+    }
+    .evoluciones{ 
+        width: 300px;
+        height: 300px;
     }
 }
