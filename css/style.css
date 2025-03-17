@@ -21,8 +21,20 @@ main {
     border-radius: 100px;
 }
 .cajapokemon{
-    border-radius: 50px;
+    border-radius: 60px;
     margin: 20px;
+}
+li{
+    list-style: none;
+    margin:12px 12px 12px 0px;
+    
+}
+ul{
+    padding: 0px;
+}
+.estadisticas{
+    border-radius: 40px;
+    margin-right: 20px;
 }
 @media all and (min-width: 993px) {
     .fuente {
