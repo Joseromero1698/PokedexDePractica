@@ -20,7 +20,10 @@ main {
 .radiotipo{
     border-radius: 100px;
 }
-
+.cajapokemon{
+    border-radius: 50px;
+    margin: 20px;
+}
 @media all and (min-width: 993px) {
     .fuente {
         font-size: 100px;
